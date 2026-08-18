@@ -3,6 +3,11 @@
   "items": [
     {
       "date": "1996-08-18",
+      "title": "MARY Update enters native Windows testing",
+      "body": "MARYOS RC8 introduces a Squirrel.Windows application updater. The official feed will be enabled after the first RC8 Windows feed is generated and published."
+    },
+    {
+      "date": "1996-08-18",
       "title": "MARYOS Online Architecture enters RC7",
       "body": "MARYOS RC7 introduces a dynamic MARYNET site directory, disk cache, safe server-delivered UI applications, external language packs and a staged MARY Update rollback layer."
     },
