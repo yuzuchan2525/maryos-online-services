@@ -1,8 +1,8 @@
 {
   "format": "MARYOS-NATIVE-UPDATE-SERVICE",
   "version": 1,
-  "enabled": false,
-  "feed": "squirrel/win32/x64",
+  "enabled": true,
+  "feed": "https://pub-9e098a93cbe24c8aa80191adf4ec99e2.r2.dev",
   "currentClientVersion": "1.0.8",
-  "message": "RC8 native updater is installed, but the Squirrel.Windows feed must be populated from a real Windows Forge build before it is enabled."
+  "message": "MARYOS native application updates are delivered through the official Cloudflare R2 Squirrel.Windows feed."
 }
