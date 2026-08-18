@@ -11,6 +11,9 @@
     "support": "sites/support.json",
     "japanese": "sites/japanese.json",
     "siteIndex": "sites/index.json",
-    "updateRC7": "update-rc7.json"
+    "updateRC7": "update-rc7.json",
+    "nativeUpdate": "native-update.json",
+    "legacyUpdateRc8": "update-rc8.json",
+    "squirrelWinX64": "squirrel/win32/x64/RELEASES"
   }
 }
