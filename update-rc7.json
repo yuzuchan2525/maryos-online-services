@@ -1,0 +1,20 @@
+{
+  "service": "MARY Update Service",
+  "channel": "stable",
+  "latest": {
+    "version": "1.0",
+    "serviceRelease": "Online SR1",
+    "build": 96200,
+    "buildLabel": "96.200",
+    "title": "MARYOS 1.0 Online Architecture Service Release 1",
+    "file": "updates/MARYOS_102ONLINE.UPD",
+    "size": 793,
+    "sha256": "8e6825d5b68e64a65cc75dd084313edb342efca8091b484ec224506597e5c13a",
+    "requiresRestart": true,
+    "notes": [
+      "Dynamic MARYNET site directory and disk cache.",
+      "Safe UI-based online applications and external language packs.",
+      "Persistent update layer with rollback support."
+    ]
+  }
+}
