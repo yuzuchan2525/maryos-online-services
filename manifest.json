@@ -8,6 +8,7 @@
     "shareware": "shareware.json",
     "news": "news.json",
     "home": "sites/home.json",
-    "support": "sites/support.json"
+    "support": "sites/support.json",
+    "japanese": "sites/japanese.json"
   }
 }
