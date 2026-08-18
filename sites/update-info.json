@@ -1,0 +1,21 @@
+{
+  "url": "mary://update-info",
+  "title": "MARY Update Information",
+  "description": "MARYOS RC7から導入された新しい更新方式について。",
+  "updated": "1996-08-18",
+  "sections": [
+    {
+      "title": "RC7 Update Layer",
+      "paragraphs": [
+        "MARY Updateは公式サーバーから.UPDを取得し、サイズとSHA-256を確認してからデスクトップ側の更新領域へステージします。",
+        "RC7の更新パッケージは宣言型で、任意のJavaScriptや実行ファイルを含めることはできません。"
+      ]
+    },
+    {
+      "title": "Rollback",
+      "paragraphs": [
+        "更新後に問題があればMARY UpdateのRollbackから以前の更新レイヤーへ戻せます。ユーザーファイルや仮想C:は保持されます。"
+      ]
+    }
+  ]
+}
