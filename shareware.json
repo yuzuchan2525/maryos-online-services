@@ -24,6 +24,20 @@
       "name": "MARYOS Japanese Language Patch",
       "version": "1.0",
       "file": "packages/MARYJP10.MPK"
+    },
+    {
+      "id": "maryclock",
+      "name": "MARY Clock",
+      "version": "1.0",
+      "file": "packages/MARYCLOCK.MPK",
+      "size": 482,
+      "sha256": "2f64a63aabc805e06254732c3dbde660571f512079d10c721198adee4e67b551",
+      "runtime": "clock",
+      "command": "maryclock",
+      "folder": "MARYCLOCK",
+      "exe": "CLOCK.EXE",
+      "installedSize": 53248,
+      "description": "A small desktop clock for MARYOS. Displays the MARYOS system date and time."
     }
   ]
 }
