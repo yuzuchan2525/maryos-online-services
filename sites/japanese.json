@@ -13,5 +13,30 @@
     "パッチファイル名は MARYJP10.MPK です。",
     "ダウンロード先は C:\\DOWNLOADS です。",
     "英語表示へ戻す場合は Add/Remove Programs から Japanese Language Patch を削除します。"
+  ],
+  "sections": [
+    {
+      "title": "インストール手順",
+      "steps": [
+        "MARY Web を開き、MARY Shareware Center に移動します。",
+        "MARYOS Japanese Language Patch 1.0 を探して Download を押します。",
+        "ダウンロード完了後に MARY Setup が開くので Install を押します。",
+        "インストールが完了すると、MARYOS のメニューや主要画面が日本語表示へ切り替わります。"
+      ],
+      "links": [
+        {
+          "label": "MARY Shareware Center を開く",
+          "url": "mary://store"
+        }
+      ]
+    },
+    {
+      "title": "メモ",
+      "items": [
+        "パッチファイル名は MARYJP10.MPK です。",
+        "ダウンロード先は C:\\DOWNLOADS です。",
+        "英語表示へ戻す場合は Add/Remove Programs から Japanese Language Patch を削除します。"
+      ]
+    }
   ]
 }
