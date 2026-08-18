@@ -3,6 +3,11 @@
   "items": [
     {
       "date": "1996-08-18",
+      "title": "MARY Online Services is now online",
+      "body": "The MARY Network public service server is now operating. MARYOS computers can receive live news and service information through MARY Online Services."
+    },
+    {
+      "date": "1996-08-18",
       "title": "MARY Online Services begins testing",
       "body": "MARY Computer Systems has begun testing MARY Update, online software catalogs and MARYNET information services."
     },
