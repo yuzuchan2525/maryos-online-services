@@ -1,0 +1,26 @@
+{
+  "format": "MARYOS-UPDATE",
+  "schema": 1,
+  "publisher": "Mary Computer Systems, Inc.",
+  "channel": "stable",
+  "fromBuild": 96100,
+  "toBuild": 96200,
+  "version": "1.0",
+  "serviceRelease": "Online SR1",
+  "buildLabel": "96.200",
+  "title": "MARYOS 1.0 Online Architecture Service Release 1",
+  "releaseDate": "1996-08-18",
+  "features": {
+    "marynetDirectory": true,
+    "diskCache": true,
+    "safeRemoteUi": true,
+    "externalLanguagePacks": true,
+    "rollback": true
+  },
+  "welcomeMessage": "MARYOS Online Architecture Service Release 1 has been activated.",
+  "notes": [
+    "Adds the persistent MARYNET cache and dynamic site directory.",
+    "Enables the safe declarative UI MPK runtime and external language packs.",
+    "Adds staged system-update rollback support."
+  ]
+}
