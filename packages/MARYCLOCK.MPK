@@ -1,0 +1,19 @@
+{
+  "format": "MARY-PACKAGE",
+  "schema": 1,
+  "id": "maryclock",
+  "name": "MARY Clock",
+  "version": "1.0",
+  "runtime": "clock",
+  "command": "maryclock",
+  "folder": "MARYCLOCK",
+  "exe": "CLOCK.EXE",
+  "installedSize": 53248,
+  "description": "A small desktop clock for MARYOS. Displays the MARYOS system date and time.",
+  "keywords": "clock time date utility shareware",
+  "options": {
+    "showSeconds": true,
+    "showDate": true,
+    "buttonLabel": "Date / Time..."
+  }
+}
