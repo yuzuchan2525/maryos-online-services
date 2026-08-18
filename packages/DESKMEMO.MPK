@@ -1,0 +1,56 @@
+{
+  "format": "MARY-PACKAGE",
+  "schema": 1,
+  "id": "deskmemo",
+  "name": "MARY Desk Memo",
+  "version": "1.0",
+  "runtime": "ui",
+  "command": "deskmemo",
+  "folder": "DESKMEMO",
+  "exe": "MEMO.EXE",
+  "installedSize": 71680,
+  "description": "A small memo utility delivered entirely through the safe MARY UI runtime.",
+  "keywords": "memo note utility ui remote shareware",
+  "options": {
+    "ui": [
+      {
+        "type": "heading",
+        "text": "Desk Memo"
+      },
+      {
+        "type": "text",
+        "text": "This program was downloaded from MARY Online Services. Its interface is described by the MPK package; no remote JavaScript is executed."
+      },
+      {
+        "type": "textarea",
+        "id": "memo",
+        "label": "Memo:",
+        "rows": 6,
+        "placeholder": "Type a note here..."
+      },
+      {
+        "type": "button",
+        "label": "Save Memo",
+        "action": {
+          "type": "save",
+          "message": "Memo saved to your MARYOS profile."
+        }
+      },
+      {
+        "type": "button",
+        "label": "Open Tips",
+        "action": {
+          "type": "open",
+          "url": "mary://tips"
+        }
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "text",
+        "text": "MARY Desk Memo 1.0"
+      }
+    ]
+  }
+}
