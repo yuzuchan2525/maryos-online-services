@@ -1,0 +1,23 @@
+{
+  "url": "mary://tips",
+  "title": "MARYOS Tips & Tricks",
+  "description": "MARYOSをもう少し便利に使うための小技集です。",
+  "updated": "1996-08-18",
+  "sections": [
+    {
+      "title": "キーボード",
+      "items": [
+        "F3でFindを開けます。",
+        "Runから mary:// アドレスを直接開けます。",
+        "TerminalのDIRやTYPEは実際の仮想ディスクを読みます。"
+      ]
+    },
+    {
+      "title": "MARYNET",
+      "items": [
+        "一度読んだサイトは C:\\WINDOWS\\CACHE\\MARYNET にキャッシュされます。",
+        "サーバーが一時的に停止しても、前回受信したページを読めます。"
+      ]
+    }
+  ]
+}
