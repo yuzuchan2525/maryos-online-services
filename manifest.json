@@ -10,6 +10,7 @@
     "home": "sites/home.json",
     "support": "sites/support.json",
     "japanese": "sites/japanese.json",
-    "siteIndex": "sites/index.json"
+    "siteIndex": "sites/index.json",
+    "updateRC7": "update-rc7.json"
   }
 }
