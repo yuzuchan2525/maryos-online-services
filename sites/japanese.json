@@ -1,0 +1,17 @@
+{
+  "url": "mary://japanese",
+  "title": "MARYOS 日本語化のやり方！",
+  "description": "MARYOS 1.0 に Japanese Language Patch を導入して、日本語表示へ切り替える手順です。",
+  "updated": "1996-08-18",
+  "steps": [
+    "MARY Web を開き、MARY Shareware Center に移動します。",
+    "MARYOS Japanese Language Patch 1.0 を探して Download を押します。",
+    "ダウンロード完了後に MARY Setup が開くので Install を押します。",
+    "インストールが完了すると、MARYOS のメニューや主要画面が日本語表示へ切り替わります。"
+  ],
+  "notes": [
+    "パッチファイル名は MARYJP10.MPK です。",
+    "ダウンロード先は C:\\DOWNLOADS です。",
+    "英語表示へ戻す場合は Add/Remove Programs から Japanese Language Patch を削除します。"
+  ]
+}
