@@ -1,0 +1,203 @@
+MARY Online Services Server v1
+Cloudflare Pages 公開手順
+========================================
+
+このフォルダの「中身」を GitHub リポジトリのルートに置いてください。
+
+推奨リポジトリ名:
+  maryos-online-services
+
+例:
+  maryos-online-services/
+  ├─ index.html
+  ├─ _headers
+  ├─ manifest.json
+  ├─ update.json
+  ├─ shareware.json
+  ├─ news.json
+  ├─ sites/
+  ├─ packages/
+  └─ updates/
+
+----------------------------------------
+1. GitHub
+----------------------------------------
+
+GitHubで新しいリポジトリを作成します。
+
+例:
+  maryos-online-services
+
+このZIP内の
+  MARY_Online_Services_Server_v1/
+の「中身」を全部リポジトリへ入れてください。
+
+重要:
+フォルダ自体を一段余計に入れないでください。
+
+正:
+  repo/update.json
+
+誤:
+  repo/MARY_Online_Services_Server_v1/update.json
+
+----------------------------------------
+2. Cloudflare Pages
+----------------------------------------
+
+Cloudflare Dashboard で Pages プロジェクトを作成し、
+GitHub の maryos-online-services リポジトリを接続します。
+
+このサーバーは静的ファイルだけなので、
+ビルド処理は不要です。
+
+公開後は例として:
+
+  https://maryos-online-services.pages.dev
+
+のようなURLになります。
+
+ルートURLをブラウザで開いて、
+
+  MARY ONLINE SERVICES
+  SERVICE STATUS: ONLINE
+
+と表示されれば、静的サーバー自体は動いています。
+
+さらに:
+
+  /manifest.json
+  /update.json
+  /shareware.json
+  /news.json
+
+が開けることを確認してください。
+
+----------------------------------------
+3. MARYOS RC4
+----------------------------------------
+
+MARYOSを起動:
+
+  Control Panel
+      ↓
+  MARY Online Services
+
+次を設定:
+
+  [x] Use external MARY service server
+
+  Server URL:
+  https://あなたのPages URL
+
+末尾の / は付いていてもMARYOS側で除去します。
+
+Save
+↓
+Test Connection
+
+「Connection successful.」になれば接続完了です。
+
+----------------------------------------
+4. News更新
+----------------------------------------
+
+news.json をGitHubで変更してpushします。
+
+例:
+
+{
+  "generated": "1996-08-20",
+  "items": [
+    {
+      "date": "1996-08-20",
+      "title": "MARYOS Network Test",
+      "body": "MARY Online Services is now available."
+    }
+  ]
+}
+
+Cloudflare Pagesのデプロイ完了後、
+MARYOSのOnline ServicesからNewsを更新すると反映されます。
+
+----------------------------------------
+5. Shareware追加
+----------------------------------------
+
+将来的に:
+
+  packages/MARYCHESS.MPK
+
+を置いて shareware.json に追加します。
+
+ただしRC4では外部shareware.jsonの取得までは対応していますが、
+「サーバーにしか存在しない新規MPKを完全に動的追加する処理」は
+次のMARYOS更新で実装予定です。
+
+----------------------------------------
+6. OS更新を公開するとき
+----------------------------------------
+
+絶対に update.json を先に更新しないでください。
+
+正しい順番:
+
+  1. 新しいMARYOSを完成
+  2. .UPDを作成
+  3. updates/ にアップロード
+  4. SHA-256を計算
+  5. ファイルサイズを確認
+  6. 実際にURLからダウンロードできることを確認
+  7. テスト環境で更新を確認
+  8. 最後に update.json を新Buildへ変更
+
+このZIPには:
+
+  update.example-future.json
+
+が入っています。
+
+これはBuild 96.101の例です。
+まだ update.json と置き換えないでください。
+
+----------------------------------------
+7. キャッシュ
+----------------------------------------
+
+_headers では:
+
+JSON:
+  no-cache / no-store
+
+UPD / MPK:
+  1年間 immutable
+
+にしています。
+
+更新ファイルやMPKは同じファイル名の内容を後から変更せず、
+バージョンごとに新しいファイル名を使う前提です。
+
+例:
+  MARYOS_101SR1.UPD
+  MARYOS_110.UPD
+
+----------------------------------------
+8. 次の作業
+----------------------------------------
+
+このサーバーが公開できたら、次はMARYOS RC5側を更新して:
+
+  mary://home
+  mary://support
+  mary://news
+  mary://store
+
+を本当にこのサーバーから取得するようにします。
+
+そのあと:
+
+  外部MPKの動的追加
+  本物のUPDダウンロード
+  EXE自己更新
+
+へ進められます。

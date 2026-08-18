@@ -1,0 +1,25 @@
+/*
+  Access-Control-Allow-Origin: *
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+
+/manifest.json
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/update.json
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/shareware.json
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/news.json
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/sites/*
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/updates/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/packages/*
+  Cache-Control: public, max-age=31536000, immutable

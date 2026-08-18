@@ -1,0 +1,27 @@
+MARY Online Services - Publish Checklist
+
+[ ] GitHub repository created
+[ ] Repository root contains manifest.json
+[ ] Repository root contains _headers
+[ ] Cloudflare Pages connected to repository
+[ ] Production deployment succeeded
+[ ] Root URL opens
+[ ] manifest.json opens
+[ ] update.json opens
+[ ] update.json still reports Build 96.100
+[ ] shareware.json opens
+[ ] news.json opens
+[ ] MARYOS external services enabled
+[ ] Pages root URL saved in MARYOS
+[ ] Test Connection succeeds
+[ ] News refresh succeeds
+[ ] Invalid URL fallback still works
+
+BEFORE A FUTURE OS UPDATE
+[ ] New application build finished
+[ ] Update package uploaded first
+[ ] SHA-256 calculated
+[ ] Size recorded
+[ ] Package URL tested
+[ ] Disposable-client update test passed
+[ ] update.json changed LAST

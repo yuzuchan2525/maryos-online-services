@@ -1,0 +1,17 @@
+{
+  "service": "MARY Update Service",
+  "channel": "stable",
+  "latest": {
+    "version": "1.0",
+    "serviceRelease": "",
+    "build": 96100,
+    "buildLabel": "96.100",
+    "title": "MARYOS 1.0",
+    "file": "",
+    "size": 0,
+    "sha256": "",
+    "requiresRestart": false,
+    "notes": [
+      "Current public release."
+    ]
+}

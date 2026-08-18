@@ -1,0 +1,29 @@
+{
+  "generated": "1996-08-18",
+  "packages": [
+    {
+      "id": "marysnake",
+      "name": "MARY Snake",
+      "version": "1.2",
+      "file": "packages/MARYSNAKE.MPK"
+    },
+    {
+      "id": "midiplayer",
+      "name": "MARY MIDI Player",
+      "version": "1.0",
+      "file": "packages/MARYMIDI.MPK"
+    },
+    {
+      "id": "weather96",
+      "name": "Weather 96",
+      "version": "0.9",
+      "file": "packages/WEATHER96.MPK"
+    },
+    {
+      "id": "japanese",
+      "name": "MARYOS Japanese Language Patch",
+      "version": "1.0",
+      "file": "packages/MARYJP10.MPK"
+    }
+  ]
+}

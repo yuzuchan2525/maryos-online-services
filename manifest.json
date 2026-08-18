@@ -1,0 +1,13 @@
+{
+  "service": "MARY Online Services",
+  "version": 1,
+  "status": "ok",
+  "generated": "1996-08-18",
+  "endpoints": {
+    "update": "update.json",
+    "shareware": "shareware.json",
+    "news": "news.json",
+    "home": "sites/home.json",
+    "support": "sites/support.json"
+  }
+}

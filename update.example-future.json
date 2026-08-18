@@ -1,0 +1,19 @@
+{
+  "service": "MARY Update Service",
+  "channel": "stable",
+  "latest": {
+    "version": "1.0",
+    "serviceRelease": "SR1",
+    "build": 96101,
+    "buildLabel": "96.101",
+    "title": "MARYOS 1.0 Service Release 1",
+    "file": "updates/MARYOS_101SR1.UPD",
+    "size": 734003,
+    "sha256": "REPLACE-WITH-REAL-SHA256",
+    "requiresRestart": true,
+    "notes": [
+      "Example future update manifest.",
+      "Do not publish this file as update.json until the package exists."
+    ]
+  }
+}
