@@ -20,12 +20,6 @@
       "file": "packages/WEATHER96.MPK"
     },
     {
-      "id": "japanese",
-      "name": "MARYOS Japanese Language Patch",
-      "version": "1.0",
-      "file": "packages/MARYJP10.MPK"
-    },
-    {
       "id": "maryclock",
       "name": "MARY Clock",
       "version": "1.0",
@@ -38,6 +32,34 @@
       "exe": "CLOCK.EXE",
       "installedSize": 53248,
       "description": "A small desktop clock for MARYOS. Displays the MARYOS system date and time."
+    },
+    {
+      "id": "deskmemo",
+      "name": "MARY Desk Memo",
+      "version": "1.0",
+      "file": "packages/DESKMEMO.MPK",
+      "size": 1309,
+      "sha256": "e88c0929f34c9da0cdc5d5bbd00e2db59666da02a2622c78997499638aaa9bb4",
+      "runtime": "ui",
+      "command": "deskmemo",
+      "folder": "DESKMEMO",
+      "exe": "MEMO.EXE",
+      "installedSize": 71680,
+      "description": "A memo utility built entirely with the safe MARY UI package runtime."
+    },
+    {
+      "id": "japanese",
+      "name": "MARYOS Japanese Language Patch",
+      "version": "1.1",
+      "file": "packages/MARYJP10.MPK",
+      "size": 8622,
+      "sha256": "606f6cffecf5fac739943bd15c00cf5d0ae36f3d8e1a0da5226348241813a081",
+      "runtime": "language-pack",
+      "command": "japanese",
+      "folder": "MARYJP",
+      "exe": "JAPANESE.LNG",
+      "installedSize": 524288,
+      "description": "Japanese localization data delivered as an external language-pack MPK."
     }
   ]
 }
