@@ -1,0 +1,8 @@
+{
+  "format": "MARYOS-NATIVE-UPDATE-SERVICE",
+  "version": 1,
+  "enabled": false,
+  "feed": "squirrel/win32/x64",
+  "currentClientVersion": "1.0.8",
+  "message": "RC8 native updater is installed, but the Squirrel.Windows feed must be populated from a real Windows Forge build before it is enabled."
+}
