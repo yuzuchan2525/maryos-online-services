@@ -1,0 +1,33 @@
+{
+  "url": "mary://beginner",
+  "title": "MARYOS はじめてガイド",
+  "description": "MARYOSを初めて使う人向けの基本操作ガイドです。",
+  "updated": "1996-08-18",
+  "sections": [
+    {
+      "title": "まず覚えること",
+      "items": [
+        "画面左下のMARYボタンからプログラムを開けます。",
+        "My Computer / MARY Explorerで仮想C:ドライブを操作できます。",
+        "MARY Webでは mary:// アドレスのMARY Networkを閲覧できます。"
+      ]
+    },
+    {
+      "title": "おすすめ",
+      "links": [
+        {
+          "label": "MARYOS 日本語化のやり方！",
+          "url": "mary://japanese"
+        },
+        {
+          "label": "MARY Shareware Center",
+          "url": "mary://store"
+        },
+        {
+          "label": "MARYOS Tips & Tricks",
+          "url": "mary://tips"
+        }
+      ]
+    }
+  ]
+}
