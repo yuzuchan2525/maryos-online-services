@@ -1,0 +1,33 @@
+{
+  "generated": "1996-08-18",
+  "sites": [
+    {
+      "url": "mary://japanese",
+      "file": "sites/japanese.json",
+      "title": "MARYOS 日本語化のやり方！",
+      "description": "Japanese Language Patch の入手とインストール手順。",
+      "keywords": "japanese 日本語 language patch guide localization"
+    },
+    {
+      "url": "mary://beginner",
+      "file": "sites/beginner.json",
+      "title": "MARYOS はじめてガイド",
+      "description": "MARYOSを初めて使う人向けの基本操作ガイド。",
+      "keywords": "beginner guide getting started basic"
+    },
+    {
+      "url": "mary://tips",
+      "file": "sites/tips.json",
+      "title": "MARYOS Tips & Tricks",
+      "description": "MARYOSを便利に使うための小技集。",
+      "keywords": "tips tricks keyboard terminal web"
+    },
+    {
+      "url": "mary://update-info",
+      "file": "sites/update-info.json",
+      "title": "MARY Update Information",
+      "description": "MARY UpdateとOnline Service Releaseの説明。",
+      "keywords": "update release service updater"
+    }
+  ]
+}
