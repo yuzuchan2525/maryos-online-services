@@ -1,21 +1,20 @@
 {
   "url": "mary://update-info",
-  "title": "MARY Update Information",
-  "description": "MARYOS RC7から導入された新しい更新方式について。",
+  "title": "MARY Update Information - RC8",
+  "description": "RC8 introduces native Windows application replacement using Squirrel.Windows while keeping MARYOS user data outside the installation directory.",
   "updated": "1996-08-18",
   "sections": [
     {
-      "title": "RC7 Update Layer",
-      "paragraphs": [
-        "MARY Updateは公式サーバーから.UPDを取得し、サイズとSHA-256を確認してからデスクトップ側の更新領域へステージします。",
-        "RC7の更新パッケージは宣言型で、任意のJavaScriptや実行ファイルを含めることはできません。"
-      ]
+      "title": "RC8 Native Windows Update",
+      "body": "When the official native feed is enabled, MARY Update reads the Squirrel.Windows RELEASES feed. A newer full application package is downloaded automatically and installed during restart."
     },
     {
-      "title": "Rollback",
-      "paragraphs": [
-        "更新後に問題があればMARY UpdateのRollbackから以前の更新レイヤーへ戻せます。ユーザーファイルや仮想C:は保持されます。"
-      ]
+      "title": "What is preserved?",
+      "body": "Virtual C:, user settings, installed MARY packages, custom MARYNET pages and cached online data remain in the stable MARYOS user profile outside the application install directory."
+    },
+    {
+      "title": "Legacy Service Layer",
+      "body": "The older declarative .UPD system remains only as a compatibility fallback. RC8 retires obsolete RC7 service layers once the native base build is newer."
     }
   ]
 }
