@@ -3,8 +3,8 @@
   "items": [
     {
       "date": "1996-08-18",
-      "title": "MARY Online Services is now online",
-      "body": "The MARY Network public service server is now operating. MARYOS computers can receive live news and service information through MARY Online Services."
+      "title": "MARYOS Online Architecture enters RC7",
+      "body": "MARYOS RC7 introduces a dynamic MARYNET site directory, disk cache, safe server-delivered UI applications, external language packs and a staged MARY Update rollback layer."
     },
     {
       "date": "1996-08-18",
